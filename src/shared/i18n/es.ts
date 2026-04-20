@@ -17,7 +17,7 @@ export const es: Translations = {
   about: {
     title: 'Sobre mí',
     subtitle: 'Soy Juan Jose',
-    text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.',
+    text: 'Soy Juan Jose Restrepo Cuadros. Soy un analista programador con más de cuatro años de experiencia. Actualmente trabajo como desarrollador front-end, utilizando lenguajes como AngularJS, React, JavaScript vanilla, jQuery, NodeJS y PHP, así como librerías como Bootstrap y TailwindCSS.',
   },
   skills: {
     title: 'Habilidades',

@@ -11,9 +11,9 @@ import {
 import { useLanguage } from '../../shared/context/LanguageContext';
 
 const socialLinks = [
-  { icon: 'uil:linkedin', href: '#', label: 'LinkedIn' },
-  { icon: 'mdi:github', href: '#', label: 'GitHub' },
-  { icon: 'lineicons:behance', href: '#', label: 'Behance' },
+  { icon: 'uil:linkedin', href: 'https://www.linkedin.com/in/juan-jos%C3%A9-cuadros-8959961b4/', label: 'LinkedIn' },
+  { icon: 'mdi:github', href: 'https://github.com/JuanDevEngineer', label: 'GitHub' },
+  { icon: 'mdi:instagram', href: 'https://www.instagram.com/juanjorcuadros/', label: 'Instagram' },
 ];
 
 function Home() {
