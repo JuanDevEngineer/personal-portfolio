@@ -4,9 +4,17 @@ export const en: Translations = {
   nav: {
     home: 'Home',
     about: 'About',
+    resume: 'Resume',
     skills: 'Skills',
     work: 'Work',
     contact: 'Contact',
+  },
+  resume: {
+    title: 'Resume',
+    subtitle: 'Download my CV',
+    text: 'Get a detailed overview of my experience, education, and technical skills. Available in PDF format, ready to download.',
+    download: 'Download CV',
+    preview: 'View online',
   },
   home: {
     greeting: 'Hi,',

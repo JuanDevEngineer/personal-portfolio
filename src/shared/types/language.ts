@@ -4,9 +4,17 @@ export interface Translations {
   nav: {
     home: string;
     about: string;
+    resume: string;
     skills: string;
     work: string;
     contact: string;
+  };
+  resume: {
+    title: string;
+    subtitle: string;
+    text: string;
+    download: string;
+    preview: string;
   };
   home: {
     greeting: string;

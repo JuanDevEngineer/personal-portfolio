@@ -8,6 +8,7 @@ import './App.css';
 
 const Home = lazy(() => import('./features/home/Home'));
 const About = lazy(() => import('./features/about/About'));
+const Resume = lazy(() => import('./features/resume/Resume'));
 const Skills = lazy(() => import('./features/skills/Skills'));
 const Work = lazy(() => import('./features/work/Work'));
 const Contact = lazy(() => import('./features/contact/Contact'));
@@ -19,6 +20,7 @@ export default function App() {
       <Layout>
         <Home />
         <About />
+        <Resume />
         <Skills />
         <Work />
         <Contact />

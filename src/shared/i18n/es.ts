@@ -4,9 +4,17 @@ export const es: Translations = {
   nav: {
     home: 'Inicio',
     about: 'Sobre mí',
+    resume: 'Currículum',
     skills: 'Habilidades',
     work: 'Proyectos',
     contact: 'Contacto',
+  },
+  resume: {
+    title: 'Currículum',
+    subtitle: 'Descarga mi CV',
+    text: 'Obtén un resumen detallado de mi experiencia, formación y habilidades técnicas. Disponible en formato PDF, listo para descargar.',
+    download: 'Descargar CV',
+    preview: 'Ver en línea',
   },
   home: {
     greeting: 'Hola,',
