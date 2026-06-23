@@ -10,20 +10,26 @@ export const en: Translations = {
   },
   home: {
     greeting: 'Hi,',
-    name: 'Juan Jose',
-    roles: ['Web Developer', 'PHP Developer', 'React Developer'],
-    cta: 'Contact',
+    name: 'I am Juan José',
+    roles: [
+      'Programmer Analyst',
+      'Full Stack Developer',
+      'React Developer',
+      'PHP Developer',
+    ],
+    cta: 'Contact me',
   },
   about: {
-    title: 'About',
-    subtitle: "I'm Juan Jose",
-    text: 'I am Juan Jose Restrepo Cuadros. I am a programmer analyst with over four years of experience. I currently work as a front-end developer, using languages such as AngularJS, React, vanilla JavaScript, jQuery, NodeJS, and PHP, as well as libraries such as Bootstrap and TailwindCSS.',
+    title: 'About me',
+    subtitle: 'Programmer Analyst & Full Stack Developer',
+    text: 'I am Juan José Restrepo Cuadros, a programmer analyst with over 3 years of experience in web development. I specialize in accounting and financial systems, working with PHP, Node.js, React, Angular, and multiple databases. Self-taught, passionate about technology, and committed to delivering quality solutions.',
   },
   skills: {
     title: 'Skills',
     subtitle: 'Professional Skills',
-    text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.',
+    text: 'Throughout my experience I have worked with a broad tech stack — from frontend to backend and databases — always in agile environments using SCRUM methodology.',
   },
+
   work: {
     title: 'Work',
     viewDetails: 'View details',
@@ -32,11 +38,13 @@ export const en: Translations = {
     projects: [
       {
         name: 'Weather App',
-        description: 'A weather forecasting application with interactive maps and location-based alerts.',
+        description:
+          'A weather forecasting application with interactive maps and location-based alerts.',
       },
       {
         name: 'Breaking Back React',
-        description: 'A application that loads the characters from the series Breaking Bad.',
+        description:
+          'A application that loads the characters from the series Breaking Bad.',
       },
       {
         name: 'Ecommerce-nextjs',
@@ -50,6 +58,9 @@ export const en: Translations = {
     emailPlaceholder: 'Email',
     messagePlaceholder: 'Message',
     send: 'Send',
+    sending: 'Sending...',
+    success: 'Message sent successfully!',
+    error: 'Failed to send message.',
   },
   footer: {
     copy: 'All rights reserved',

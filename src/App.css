@@ -717,7 +717,7 @@ img {
 }
 
 .contact__button {
-  display: block;
+  display: flex;
   width: 100%;
   border: none;
   outline: none;
@@ -725,6 +725,76 @@ img {
   cursor: pointer;
   margin-left: auto;
   justify-content: center;
+}
+
+.contact__button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none !important;
+}
+
+.contact__button--sending {
+  pointer-events: none;
+}
+
+.contact__input:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.contact__spinner {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.contact__feedback {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  font-size: var(--smaller-font-size);
+  font-weight: var(--font-semi);
+  margin-top: 1rem;
+}
+
+.contact__feedback--success {
+  background-color: #d1fae5;
+  color: #065f46;
+  border: 1px solid #6ee7b7;
+}
+
+[data-theme="dark"] .contact__feedback--success {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: #6ee7b7;
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+.contact__feedback--error {
+  background-color: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fca5a5;
+}
+
+[data-theme="dark"] .contact__feedback--error {
+  background-color: rgba(239, 68, 68, 0.1);
+  color: #fca5a5;
+  border-color: rgba(239, 68, 68, 0.3);
+}
+
+.contact__error-detail {
+  font-weight: 400;
+  font-size: 0.7rem;
+  opacity: 0.75;
 }
 
 /* ===== FOOTER ===== */

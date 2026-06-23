@@ -40,6 +40,9 @@ export interface Translations {
     emailPlaceholder: string;
     messagePlaceholder: string;
     send: string;
+    sending: string;
+    success: string;
+    error: string;
   };
   footer: {
     copy: string;

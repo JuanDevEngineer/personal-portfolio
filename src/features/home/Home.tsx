@@ -32,7 +32,7 @@ function Home() {
         <motion.h1 className="home__title" variants={fadeInLeft}>
           {t.home.greeting}
           <br />
-          I&apos;m <span className="home__title-color">{t.home.name}</span>
+          <span className="home__title-color">{t.home.name}</span>
           <br />
           <TypingEffect words={t.home.roles} className="home__title-color" />
         </motion.h1>
