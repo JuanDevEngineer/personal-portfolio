@@ -8,7 +8,7 @@ import { useLanguage } from '../../shared/context/LanguageContext';
 
 type FormStatus = 'idle' | 'sending' | 'success' | 'error';
 
-const API_URL = import.meta.env.PUBLIC_API_URL || 'http://localhost:3001';
+const API_URL = import.meta?.env?.PUBLIC_API_URL || 'http://localhost:3001';
 
 function Contact() {
   const { ref, controls } = useScrollAnimation();
